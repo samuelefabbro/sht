@@ -673,7 +673,14 @@ header.is-active .logo{
     margin: 20px 15px;
 }
 
-
+section#gallery,
+section#follow-us{
+    margin-bottom: 35px;
+}
+section#questions,
+section#contact-us{
+    padding-top: 35px;
+}
 
 
 
