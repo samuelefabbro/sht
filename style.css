@@ -713,9 +713,13 @@ section#contact-us{
     .social.ig{
         width: 30px;
         height: 30px;
-        text-indent: -9999px;
         background:url(img/Instagram-02x.svg) no-repeat center center;
         background-size: 50px;
+    }
+    .social.ig a{
+        text-indent: -9999px;
+        background:none;
+        font-size: 0;
     }
     header .social{
         display: none;
