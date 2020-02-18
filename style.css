@@ -63,6 +63,11 @@ img{
 }
 a{
     outline:0;
+    text-decoration: underline;
+    color: #EF4123;
+}
+
+a:hover{
     color: #EF4123;
 }
 
