@@ -261,6 +261,28 @@ section h2{
     transform:translate(-10%,-50%);
 }
 
+#terms p {
+    text-align: left;
+    margin-bottom: 16px;
+    padding: 0px;
+    min-height: 96px;
+}
+
+#terms ul {
+    font-size: 18px;
+}
+
+#terms a {
+    text-decoration: none;
+    color: #EF4123;
+
+}
+
+#terms .logo {
+    margin-top: 30px;
+    margin-bottom: 45px;
+}
+
 #reviews{
     color: #928D54;
     font-size: 26px;
@@ -869,7 +891,7 @@ section#contact-us{
         padding: 0;
     }
     #our-guides .container .row,
-    #whats-in .container .row{
+    #whats-in, #terms .container .row{
         margin: 0;
     }
     #whats-in .aside{
@@ -879,16 +901,20 @@ section#contact-us{
         margin-bottom: 30px;
         text-align: center;
     }
-    #whats-in{
+    #whats-in, #terms{
         margin-top: 50px;
     }
     #whats-in .aside h1{
         transform:none;
     }
-    #whats-in p{
+    #whats-in, #terms p{
         padding-left: 0;
         padding-right: 0;
         min-height: auto;
+        font-size: 14px;
+    }
+
+    #terms ul {
         font-size: 14px;
     }
     .red-border{
@@ -1007,6 +1033,11 @@ section#contact-us{
         padding-right: 20px;
         min-height: 120px;
     }
+
+    #terms p{
+
+        min-height: 120px;
+    }
     #reviews{
         font-size: 20px;
     }
@@ -1050,7 +1081,7 @@ section#contact-us{
     #whats-in .included{
         margin-top: 30px;
     }
-    #whats-in p{
+    #whats-in, #terms p{
         padding-left: 0;
         padding-right: 0;
         padding-bottom: 0;
